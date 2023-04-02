@@ -1,5 +1,8 @@
 # portfolio
 
+## GitHub Pages
+
+https://samy-o.github.io/portfolio/
 
 ## Themes / Examples
 
