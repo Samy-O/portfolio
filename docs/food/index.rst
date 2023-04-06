@@ -5,3 +5,4 @@ Food Index
 
     recipes
     oven_instructions
+    index
