@@ -1,7 +1,7 @@
 name: Deploy Sphinx documentation to Pages
 
 on:
-  push:
+  pull_request:
     branches: [main] # branch to trigger deployment
 
 jobs:
@@ -16,5 +16,3 @@ jobs:
     steps:
     - id: deployment
       uses: sphinx-notes/pages@v3
-
-      
