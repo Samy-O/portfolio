@@ -1,6 +1,6 @@
 name: Build and Deploy
 on:
-  pull_request:
+  push:
     branches:    
       - main
 permissions:
@@ -21,7 +21,12 @@ jobs:
           sphinx-build docs _build
           
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          folder: _build # The folder the action should deploy.
+          path: '_build'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
