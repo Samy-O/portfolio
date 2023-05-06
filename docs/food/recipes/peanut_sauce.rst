@@ -8,6 +8,8 @@ Preparation time:
 Cooking time:
 
 .. image:: ../images/peanut_sauce.png
+   :align: center
+   :width: 350px
 
 Ingredients
 -----------
