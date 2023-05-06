@@ -5,5 +5,5 @@ Food Index
 
     oven_instructions
     recipes
-    cabbage_salad
-    peanut_sauce
+    recipes/cabbage_salad
+    recipes/peanut_sauce
