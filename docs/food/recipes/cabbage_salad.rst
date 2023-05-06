@@ -6,6 +6,8 @@ Temps de préparation : 10 minutes
 Temps total : 10 minutes
 
 .. image:: ../images/cabbage_salad.png
+   :align: center
+   :width: 350px
 
 Ingrédients
 -----------

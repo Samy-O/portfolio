@@ -1,9 +1,9 @@
-Food Index
-==========
+Food
+====
 
 .. toctree::
+   :maxdepth: 1
 
-    oven_instructions
-    recipes
-    recipes/cabbage_salad
-    recipes/peanut_sauce
+   oven_instructions
+   todo_tosort
+   recipes/index
