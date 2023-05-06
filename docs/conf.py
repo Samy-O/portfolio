@@ -18,7 +18,7 @@ extensions = ['sphinx_immaterial',
               'sphinx_design',]
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'template.rst']
 
 
 

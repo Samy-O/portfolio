@@ -3,5 +3,7 @@ Food Index
 
 .. toctree::
 
-    recipes
     oven_instructions
+    recipes
+    cabbage_salad
+    peanut_sauce
