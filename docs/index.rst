@@ -13,3 +13,4 @@ Samy-O's Portfoli-O
 
    food/index
    bass/index
+   games/index
